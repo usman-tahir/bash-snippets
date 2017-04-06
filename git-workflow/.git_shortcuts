@@ -1,0 +1,36 @@
+
+#-- Git basics --#
+
+# Git checkout
+alias gco="git checkout"
+
+# Git status
+alias gs="git status"
+
+# Create a new git branch and switch into it
+# Invoke on the branch to create and switch into
+alias gcb="git checkout -b"
+
+# Delete a git branch
+# Invoke on the branch to delete
+alias gdb="git branch -D"
+
+# Add all files to a commit
+alias gaa="git add ."
+
+# Git commit with a message from the command line (typed)
+# Rationale: "Git Quick Commit" followed by commit message
+alias gqc="git commit -m"
+
+# Git commit with a message within the default CLI editor
+# Rationale: "Git Editor Commit" which opens the default editor
+alias gec="git commit"
+
+#-- Inspecting the git log --#
+
+# One line (just basic log info; no author or date info)
+alias glo="git log --oneline"
+
+# More verbose info
+alias gl="git log"
+
