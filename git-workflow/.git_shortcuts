@@ -41,12 +41,10 @@ alias gqc="git commit -m"
 alias gec="git commit"
 
 # Basic git push
-# Rationale: "Git Outgoing"; Sends the commit to remote
-alias go="git push"
+alias gpush="git push"
 
 # Basic git pull
-# Rationale: "Git Incoming"; Receives the commits/status from remote
-alias gi="git pull"
+alias gpull="git pull"
 
 # Git push after setting the upstream repository
 # Rationale: "Git Push Upstream"; Sets the upstream repository when necessary
