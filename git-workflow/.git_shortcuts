@@ -7,6 +7,16 @@ alias gco="git checkout"
 # Git status
 alias gs="git status"
 
+# Git branch (current branches)
+alias gb="git branch"
+
+# Git remote branches
+alias grb="git branch -a"
+
+# Pull and prune unneeded remote branches
+# Pull, and then prune remote branches which have been deleted
+alias gpp="git pull && git fetch --prune"
+
 # Create a new git branch and switch into it
 # Invoke on the branch to create and switch into
 alias gcb="git checkout -b"
