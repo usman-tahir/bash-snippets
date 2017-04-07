@@ -1,6 +1,10 @@
 
 #-- Git basics --#
 
+# Git diff
+# Invoke on the filename to perform the diff on
+alias gd="git diff"
+
 # Git checkout
 alias gco="git checkout"
 
@@ -36,6 +40,18 @@ alias gqc="git commit -m"
 # Rationale: "Git Editor Commit" which opens the default editor
 alias gec="git commit"
 
+# Basic git push
+# Rationale: "Git Outgoing"; Sends the commit to remote
+alias go="git push"
+
+# Basic git pull
+# Rationale: "Git Incoming"; Receives the commits/status from remote
+alias gi="git pull"
+
+# Git push after setting the upstream repository
+# Rationale: "Git Push Upstream"; Sets the upstream repository when necessary
+alias gpu="git push --set-upsteam origin"
+
 #-- Inspecting the git log --#
 
 # One line (just basic log info; no author or date info)
@@ -43,4 +59,3 @@ alias glo="git log --oneline"
 
 # More verbose info
 alias gl="git log"
-
